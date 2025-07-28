@@ -1,0 +1,77 @@
+body {
+  background-color: #007700;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px; /* 左右に余白 */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+}
+
+.logo {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+/* main-nav を右上に固定 */
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.main-nav .bar {
+  font-size: 12px;
+  color: #FF82B2;
+  font-weight: normal;
+}
+
+footer.left {
+  position: fixed;
+  font-size:xx-small;
+  bottom: 20px;
+  left: 20px;
+}
+
+footer.right {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
